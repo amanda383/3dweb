@@ -24,4 +24,8 @@ module.exports = {
     },
   },
   plugins: [],
+<<<<<<< Updated upstream
 };
+=======
+};
+>>>>>>> Stashed changes
