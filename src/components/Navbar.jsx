@@ -20,8 +20,9 @@ const Navbar = () => {
             }} 
             >
             <img src = {logo} alt ="logo" className="w-9 h-9 object-contain" />
-            <p>Amanda <span>| Computer Engineering Student</span></p>
+            <p className='text-white text-[18px] font-bold cursor-pointer'>Amanda Li <span className='sm:block hidden' > | Computer Engineering Student</span></p>
             </Link>
+            <p className="text-red-500">asdsa</p>
         </div>
     </nav>
   )
