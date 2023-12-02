@@ -11,22 +11,22 @@ const Navbar = () => {
 
   return (
     <nav 
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
-      >
-        <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`} //beginning of Nav Bar and the CSS layout
+      > 
+        <div className="w-full flex justify-between items-center max-w-7x1 mx-auto"> 
           <Link to="/"
             className='flex items-center gap-2'
             onClick={() => {
               setActive("");
               window.scrollTo(0, 0);
-            }} 
+            }} //Aligning the logo when clicked scroll back to Top page
             >
-            <img src = {logo} alt ="logo" className="w-9 h-9 object-contain" />
+            <img src = {logo} alt ="logo" className="w-9 h-9 object-contain" /> 
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-              Amanda&nbsp;Li&nbsp;
-              {/* <span className='sm:block hidden'>| Computer Engineering Student</span> */}
-              </p>
-            </Link>
+              Amanda&nbsp;Li&nbsp; 
+              {/* <span className='sm:block hidden'>| Computer Engineering Student</span> */} 
+            </p>
+            </Link> 
             <ul className='list-none hidden sm:flex flex-row gap-10'>
               {navLinks.map((Link)=> (
                 <li
@@ -38,15 +38,15 @@ const Navbar = () => {
                   } hover:text-white text-[18px] font-medium cursor-pointer`}
                   onClick={() => setActive(Link.title)} //able to still active on when clicked on
                   >
-                  <a href={`#${Link.id}`}>{Link.title}
-                  </a>
-                </li>
+                  <a href={`#${Link.id}`}>{Link.title} 
+                  </a> 
+                </li>//different Nav links
               ))}
             </ul>
 
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img 
-              src={toggle ? close : menu} alt="menu"
+              src={toggle ? close : menu} alt="menu" //mobile toggle drop down option
               className='w-[28px] h-[28px] object-contain cursor-pointer'
               onClick={() => setToggle(!toggle)} />
 
@@ -64,10 +64,10 @@ const Navbar = () => {
                     setToggle(!toggle);
                     setActive(Link.title); //able to still active on when clicked on
                   }} 
-                  >
-                  <a href={`#${Link.id}`}>{Link.title}
-                  </a>
-                </li>
+                  > 
+                  <a href={`#${Link.id}`}>{Link.title} 
+                  </a> 
+                </li> //Mobile drop down list with the links to different Navs
               ))}
             </ul>
               </div>
