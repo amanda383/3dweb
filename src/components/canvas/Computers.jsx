@@ -5,15 +5,15 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./VillagerOC/scene.gltf");
-  const computers = useGLTF("./town/scene.gltf");
+  const computer = useGLTF("./Gengar/scene.gltf"); //Adding gltf to the hero secction
+  
 
   return (
     <mesh>
-      <hemisphereLight intensity={2} groundColor='black' />
+      <hemisphereLight intensity={6} groundColor='black' />
       <spotLight
         position={[-20, 50, 10]}
-        angle={10}
+        angle={-10}
         penumbra={1}
         intensity={1}
         castShadow
@@ -22,9 +22,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={10} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [-8.5, -3, -2.2] : [1, -3.25, 0.2]}
-        rotation={[0.01, 1.3, 0]}
+        scale={isMobile ? 1 : 0.6}
+        position={isMobile ? [0,10,0] : [0, -3.25, -.5]}
+        rotation={[0, 1.3, 0]}
       />
     </mesh>
   );
@@ -36,7 +36,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 400px)");
+    const mediaQuery = window.matchMedia("(max-width: 100px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);

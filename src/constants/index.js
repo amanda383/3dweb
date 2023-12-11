@@ -32,11 +32,15 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "github",
+      title: "Github",
     },
   ];
   
