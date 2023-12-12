@@ -25,6 +25,7 @@ import {
     tripguide,
     threejs,
     github,
+    morsecode
   } from "../assets";
   
   export const navLinks = [
@@ -230,8 +231,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: '',
-      source_code_link: "https://github.com/",
+      image: morsecode,
+      source_code_link: "https://github.com/amanda383/Morse-Code-Puzzle",
     },
     {
       name: "Muay Thai Tracker",
