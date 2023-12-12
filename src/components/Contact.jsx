@@ -122,16 +122,19 @@ const Contact = () => {
         </button>
       </form>
 
-
+    
     </motion.div>
   
-
+    
     <StarsCanvas/>
+  
+
   </div>
   
-    
 
   )
+  
 }
+
 
 export default SectionWrapper(Contact, "contact")

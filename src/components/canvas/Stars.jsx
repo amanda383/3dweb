@@ -2,6 +2,8 @@ import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
+import { Link } from "react-router-dom";
+import { github } from "../../assets";
 
 const Stars = (props) => {
   const ref = useRef();
@@ -23,7 +25,9 @@ const Stars = (props) => {
           depthWrite={false}
         />
       </Points>
+      
     </group>
+    
   );
 };
 
@@ -37,6 +41,8 @@ const StarsCanvas = () => {
 
         <Preload all />
       </Canvas>
+      
+      
     </div>
   );
 };

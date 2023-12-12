@@ -43,8 +43,9 @@ const Navbar = () => {
                   >
                   <a href={`#${Link.id}`}>{Link.title} 
                   </a> 
-                  <a href="http://google.com"><div onClick={()=>{window.open()}}></div></a>
+                  
                 </li>//different Nav links
+                
               ))}
             </ul>
 

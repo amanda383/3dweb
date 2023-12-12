@@ -44,12 +44,12 @@ import {
       source_code_link: "",
     },
 
-    {
-      id: "githublink",
-      title: "Github",
-      source_code_link: "/",
-      icon:'',
-    },
+    // {
+    //   id: "githublink",
+    //   title: "Github",
+    //   source_code_link: "/",
+    //   icon:'',
+    // },
 
   ];
 
