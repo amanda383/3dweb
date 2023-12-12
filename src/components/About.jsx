@@ -7,11 +7,11 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({index, title, icon}) => {
-  return(
-    <p>{title}</p>
-  )
-}
+// const ServiceCard = ({index, title, icon}) => {
+//   return(
+//     <p>{title}</p>
+//   )
+// }
 
 const About = () => {
   return (

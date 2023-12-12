@@ -1,3 +1,4 @@
+import { a } from "maath/dist/objectSpread2-284232a6.esm";
 import {
     mobile,
     backend,
@@ -23,26 +24,36 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
+      source_code_link: "",
     },
     {
       id: "work",
       title: "Projects",
+      source_code_link: "",
     },
     {
       id: "contact",
       title: "Contact",
+      source_code_link: "",
     },
+
     {
-      id: "github",
+      id: "githublink",
       title: "Github",
+      source_code_link: "/",
+      icon:'',
     },
+
   ];
+
+ 
   
   const services = [
     {
@@ -266,11 +277,6 @@ import {
     },
   ];
 
-  const Githubrepolink = [
-    {
-      source_code_link: "https://github.com/",
-    },
-    
-  ];
   
-  export { services, technologies, experiences, testimonials, projects, Githubrepolink };
+  
+  export { services, technologies, experiences, testimonials, projects };

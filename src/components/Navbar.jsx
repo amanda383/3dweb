@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { logo, menu, close, github } from '../assets';
+
+
 
 const Navbar = () => {
   const [active, setActive] =useState(""); //empty state
@@ -13,6 +15,7 @@ const Navbar = () => {
     <nav 
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`} //beginning of Nav Bar and the CSS layout
       > 
+      
         <div className="w-full flex justify-between items-center max-w-7x1 mx-auto"> 
           <Link to="/"
             className='flex items-center gap-2'
@@ -40,6 +43,7 @@ const Navbar = () => {
                   >
                   <a href={`#${Link.id}`}>{Link.title} 
                   </a> 
+                  <a href="http://google.com"><div onClick={()=>{window.open()}}></div></a>
                 </li>//different Nav links
               ))}
             </ul>
@@ -71,10 +75,15 @@ const Navbar = () => {
               ))}
             </ul>
               </div>
-          </div>
 
+          </div>
+          
         </div>
+        
+        
     </nav>
+    
+  
   )
             
 }
