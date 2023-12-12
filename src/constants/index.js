@@ -213,9 +213,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Morse Code Puzzle",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed an escape room puzzle that simulates Morse Code Riddles using an STM32 Nucleo module. Utilized a switch to receive user input, and 16-character LCD displays to relay information to the player.",
       tags: [
         {
           name: "react",
@@ -230,13 +230,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: '',
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Muay Thai Tracker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed a swift App that allows users to showcase muay thai skills to the app and it will give you immediate feedback regarding the form. Will be able to track what moves are being completed during the workout.  ",
       tags: [
         {
           name: "react",
@@ -251,30 +251,30 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: '',
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
 
   
