@@ -265,5 +265,12 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const Githubrepolink = [
+    {
+      source_code_link: "https://github.com/",
+    },
+    
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, Githubrepolink };
