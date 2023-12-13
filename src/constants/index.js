@@ -25,7 +25,8 @@ import {
     tripguide,
     threejs,
     github,
-    morsecode
+    morsecode,
+    workinprogress
   } from "../assets";
   
   export const navLinks = [
@@ -252,7 +253,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: '',
+      image: workinprogress,
       source_code_link: "https://github.com/",
     },
     // {

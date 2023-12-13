@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import linkedin from "./linkedin2.png";
 import morsecode from "./ece198.jpeg"
+import workinprogress from "./Workinprogress.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   linkedin,
-  morsecode
+  morsecode,
+  workinprogress
 };
