@@ -1,8 +1,31 @@
-# React + Vite
+<h2 align="center">
+  Portfolio Website<br/>
+  <a href="https://amandali.vercel.app/" target="_blank">Amanda Li</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="src/assets/demo.png" />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br/>
 
-Currently, two official plugins are available:
+<h2 align="left"> 
+Description</h2> <a href="https://amandali.vercel.app/#work" target="_blank"></a> My personal portfolio which features some of my projects as well as my resume and technical skills.<br/>
+</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was built using these technologies.
+
+- ThreeJS 
+- React Three Fiber 
+- TailwindCSS 
+- Framer Motion 
+
+
+## Features
+
+**📖 Single Page Layout**
+
+**🎨 Code reusable and scalable using Higher Order Components**
+
+**📱 Fully Responsive**
+
+**🎨 Animations**
