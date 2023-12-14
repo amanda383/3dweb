@@ -7,7 +7,7 @@ import CanvasLoader from "../Loader";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./Gengar/scene.gltf"); //Adding gltf to the hero secction
   
-
+//light of the model and the scale/rotation
   return (
     <mesh>
       <hemisphereLight intensity={6} groundColor='black' />
@@ -54,7 +54,7 @@ const ComputersCanvas = () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
-
+//camera angle that gives the best view
   return (
     <Canvas
       frameloop='demand'
