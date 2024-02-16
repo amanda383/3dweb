@@ -46,6 +46,11 @@ import {
       source_code_link: "",
     },
 
+    {
+      id: "resume",
+      title: "Resume",
+      source_code_link: "https://github.com/amanda383/Morse-Code-Puzzle",
+    },
     // {
     //   id: "githublink",
     //   title: "Github",
