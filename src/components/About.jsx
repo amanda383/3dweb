@@ -23,7 +23,7 @@ const About = () => {
     </motion.div>
 
     <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px max-w-3x1 leading-[30px]'>
-      Hi there, I am Amanda Li! I am a 2A Computer Engineering student currently studying at the University of Waterloo.
+      Hi there, I am Amanda Li! I am a 2B Computer Engineering student currently studying at the University of Waterloo.
       Apart from school and work I love to train Muay thai, playing with my cat and try out different restaurants. 
     </motion.p>
 

@@ -1,44 +1,47 @@
-import {motion} from 'framer-motion';
-import {styles} from '../styles';
-import {ComputersCanvas} from './canvas';
-
-
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto'>
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]' /> 
-          <div className='w-1 sm:h-80 h-40 violet-gradient' /> 
-        </div> 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Amanda</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a Computer Engineering Student <br className='sm:block hidden' /> at University of Waterloo
+    <section className='relative w-full h-screen mx-auto flex items-center justify-center'>
+      <div className={`${styles.paddingX} max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10`}>
+        {/* Left side - Image */}
+        <div className='flex justify-center items-center'>
+          <img 
+            src="src/assets/heroprofile.jpeg" // Replace with the actual path to your image
+            alt="Amanda"
+            className='w-72 h-72 md:w-96 md:h-96 rounded-full object-cover shadow-lg'
+          />
+        </div>
+
+        {/* Right side - Introduction */}
+        <div className='flex flex-col items-start'>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+            Hi, I'm <span className='text-[#915eff]'>Amanda</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            I'm a Computer Engineering Student <br className='sm:block hidden' /> at University of Waterloo
           </p>
         </div>
       </div>
-        <ComputersCanvas />
-        
-        <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-          <a href="#about">
-            <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justified center items-start p-2'>
-              <motion.dev
-                animate ={{
-                  y:[0,24,0]
-                }}
-                transition={{
-                  duration:1.5,
-                  repeat:Infinity,
-                  repeeatType: 'loop'
-                }}
-                className='w-3 h-3 rounded-full bg-secondary mb-1'
-              /> 
-            </div> 
-          </a> 
-        </div>
-    </section> //line 11-12 is adding the purple dot and gradient line. Line 15-17 is adding a dynamic paragraph to be able add introduction. line 23-37: built a scroller that when clicked on goes to about section
-  )
-}
 
-export default Hero
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href="#about">
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <motion.div
+              animate={{ y: [0, 24, 0] }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+            />
+          </div>
+        </a>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

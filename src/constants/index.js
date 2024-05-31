@@ -94,10 +94,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -244,6 +244,27 @@ import {
       name: "Muay Thai Tracker",
       description:
         "Designed a swift App that allows users to showcase muay thai skills to the app and it will give you immediate feedback regarding the form. Will be able to track what moves are being completed during the workout.  ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: workinprogress,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "PantryPal",
+      description:
+        "Designed a React Native App that allows users to scan their fridge using Object Detection and generate recipes based off of detected ingredients.  ",
       tags: [
         {
           name: "react",
