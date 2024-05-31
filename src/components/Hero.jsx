@@ -1,22 +1,31 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { heroprofile } from '../assets';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = heroprofile;
+    img.onload = () => setImageLoaded(true);
+  }, []);
+
   return (
     <section className='relative w-full h-screen mx-auto flex items-center justify-center'>
       <div className={`${styles.paddingX} max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10`}>
         {/* Left side - Image */}
-        <div className='flex justify-center items-center'>
+        <div className={`flex justify-center items-center ${imageLoaded ? 'block' : 'hidden'}`}>
           <img 
-            src={heroprofile} // Replace with the actual path to your image
+            src={heroprofile} 
             alt="Amanda"
             className='w-72 h-72 md:w-96 md:h-96 rounded-full object-cover shadow-lg'
           />
         </div>
 
         {/* Right side - Introduction */}
-        <div className='flex flex-col items-start'>
+        <div className={`flex flex-col items-start ${imageLoaded ? 'block' : 'hidden'}`}>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915eff]'>Amanda</span>
           </h1>
