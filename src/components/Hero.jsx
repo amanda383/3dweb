@@ -5,7 +5,7 @@ import { heroprofile } from '../assets';
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const [spotifyEmbedUrl, setSpotifyEmbedUrl] = useState('');
+  const [spotifyEmbedUrl, setSpotifyEmbedUrl] = useState(false);
 
   useEffect(() => {
     const img = new Image();
@@ -19,6 +19,8 @@ const Hero = () => {
       const dailyTrackUrl = "https://open.spotify.com/embed/playlist/1qG39Q7Z4zDXFgrSDA3g2O?utm_source=generator"
       setSpotifyEmbedUrl(dailyTrackUrl);
     };
+
+    fetchDailySpotifyContent.onload= ()=>setSpotifyEmbedUrl(true);
 
     fetchDailySpotifyContent();
   }, []);
