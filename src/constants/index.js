@@ -143,7 +143,7 @@ import {
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Questrade",
+      company_name: "Questrade Inc",
       icon: questrade,
       iconBg: "#383E56",
       date: "May 2024 - Present",
@@ -153,7 +153,7 @@ import {
     },
     {
       title: "Infrastructure and Cloud Operations Intern Toronto, Ontario",
-      company_name: "Questrade",
+      company_name: "Questrade Inc",
       icon: questrade,
       iconBg: "#E6DEDD",
       date: "Sept 2023 - Dec 2023",
