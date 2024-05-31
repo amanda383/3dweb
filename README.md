@@ -3,7 +3,7 @@
   <a href="https://amandali.vercel.app/" target="_blank">Amanda Li</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="src/assets/demo.png" />
+  <img alt="Demo" src="src/assets/updatedDemo.png" />
 </div>
 
 <br/>
