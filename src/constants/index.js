@@ -50,7 +50,7 @@ import {
     {
       id: "resume",
       title: "Resume",
-      source_code_link: "https://github.com/amanda383/Morse-Code-Puzzle",
+      external: true, link: 'https://drive.google.com/file/d/1-G7EOsj_Xop9q2F_CVpVOEM4oT_PMPqu/view?usp=sharing' 
     },
     // {
     //   id: "githublink",
