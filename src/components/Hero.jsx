@@ -1,15 +1,26 @@
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { heroprofile } from '../assets';
-import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
+  const [spotifyEmbedUrl, setSpotifyEmbedUrl] = useState('');
 
   useEffect(() => {
     const img = new Image();
     img.src = heroprofile;
     img.onload = () => setImageLoaded(true);
+
+    // Simulate fetching the daily Spotify content
+    // In a real application, you would fetch it from an API
+    const fetchDailySpotifyContent = async () => {
+      // Example URL of a daily Spotify track
+      const dailyTrackUrl = "https://open.spotify.com/embed/playlist/1qG39Q7Z4zDXFgrSDA3g2O?utm_source=generator"
+      setSpotifyEmbedUrl(dailyTrackUrl);
+    };
+
+    fetchDailySpotifyContent();
   }, []);
 
   return (
@@ -32,6 +43,29 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a Computer Engineering Student <br className='sm:block hidden' /> at University of Waterloo
           </p>
+          {/* Spotify Embed Player */}
+          <div className="spotify-player mt-10">
+            {spotifyEmbedUrl && (
+              <iframe 
+              src={spotifyEmbedUrl} 
+              width="300" 
+              height="80" 
+              frameBorder="0" 
+              allowtransparency="true" 
+              allow="encrypted-media" 
+              style={{
+                border: 'none',
+                borderRadius: '20px',
+                boxShadow: '0',
+                background: 'none',
+                padding: '0',
+                boxSizing: 'none',
+                overflow: 'hidden'
+              }} 
+                ></iframe>
+      
+            )}
+          </div>
         </div>
       </div>
 
