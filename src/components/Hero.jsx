@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
+import { heroprofile } from '../assets';
 
 const Hero = () => {
   return (
@@ -8,7 +9,7 @@ const Hero = () => {
         {/* Left side - Image */}
         <div className='flex justify-center items-center'>
           <img 
-            src="../assets/heroprofile.jpeg" // Replace with the actual path to your image
+            src={heroprofile} // Replace with the actual path to your image
             alt="Amanda"
             className='w-72 h-72 md:w-96 md:h-96 rounded-full object-cover shadow-lg'
           />

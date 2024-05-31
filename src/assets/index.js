@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import resume from "./resume.jpeg"
+import heroprofile from "./heroprofile.jpeg"
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   linkedin,
   morsecode,
   workinprogress,
-  resume
+  resume,
+  heroprofile
 };
