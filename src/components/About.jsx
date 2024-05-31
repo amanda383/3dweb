@@ -28,7 +28,7 @@ const About = () => {
     </motion.p>
 
     <ul>
-      <p className='Overview activities flex mt-6 text-[#915eff] text-[20px]'>Currently Learning About:</p>
+      <p className='Overview activities flex mt-6 text-[#915eff] text-[30px]'>Currently Learning About:</p>
       <li className='Activities justify-center flex mt-2 text-secondary text-[17px max-w-3x1 leading-[30px]'>Machine Learning</li>
       <li className='Activities justify-center flex mt-2 text-secondary text-[17px max-w-3x1 leading-[30px]'>Data Structures</li>
       <li className='Activities justify-center flex mt-2 text-secondary text-[17px max-w-3x1 leading-[30px]'>Mobile Development</li>
