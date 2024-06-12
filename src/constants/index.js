@@ -263,7 +263,7 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "GourmetGaze",
+      name: "PantryAI",
       description:
         "Designed a React Native App that allows users to scan their fridge using Object Detection and generate recipes based off of detected ingredients.  ",
       tags: [
