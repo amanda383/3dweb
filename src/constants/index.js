@@ -154,7 +154,7 @@ import {
   
   const experiences = [
     {
-      title: "Infrastructure and Cloud Operations Intern Toronto, Ontario",
+      title: "Site Reliabilty Engineer Intern Toronto, Ontario",
       company_name: "Questrade Inc",
       icon: questrade,
       iconBg: "#383E56",
