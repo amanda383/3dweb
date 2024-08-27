@@ -24,7 +24,9 @@ import {
     morsecode,
     workinprogress,
     questrade,
-    sparklease
+    sparklease,
+    pantryai,
+    python,
 
   } from "../assets";
   
@@ -124,10 +126,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -144,17 +146,23 @@ import {
     //   name: "docker",
     //   icon: docker,
     // },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Infrastructure and Cloud Operations Intern Toronto, Ontario",
       company_name: "Questrade Inc",
       icon: questrade,
       iconBg: "#383E56",
-      date: "May 2024 - Present",
+      date: "May 2024 - Aug 2024",
       points: [
-        "Present"
+        "Introduced a new business solution(Cohesity Cloud) that reduced GCP server recovery time by 90%, enhancing system resilience and minimizing downtime during critical operations.",
+        "Implemented PowerShell script for Active Directory, reducing manual effort by 60% and cutting error rates by 40%.",
+        "Developed and maintained Terraform modules for GCP, facilitating efficient resource management and enabling quicker deployment cycles for cloud infrastructure."
       ],
     },
     {
@@ -266,7 +274,7 @@ import {
         },
       ],
       image: workinprogress,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/amanda383/muaythaitracker",
     },
     {
       name: "PantryAI",
@@ -286,30 +294,10 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: workinprogress,
-      source_code_link: "https://github.com/",
+      image: pantryai,
+      source_code_link: "https://github.com/amanda383/PantryAI",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+
   ];
 
   

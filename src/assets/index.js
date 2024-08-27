@@ -9,6 +9,8 @@ import close from "./close.svg";
 import linkedin from "./linkedin2.png";
 import morsecode from "./ece198.jpeg"
 import workinprogress from "./Workinprogress.png"
+import pantryai from "./pantryai.jpeg"
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -23,6 +25,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png"
 
 import questrade from "./company/questrade.svg"
 import sparklease from "./company/sparklease.jpeg"
@@ -64,5 +67,7 @@ export {
   resume,
   heroprofile,
   questrade,
-  sparklease
+  sparklease,
+  pantryai,
+  python
 };
