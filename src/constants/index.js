@@ -1,4 +1,4 @@
-import { a } from "maath/dist/objectSpread2-284232a6.esm";
+// import { a } from "maath/dist/objectSpread2-284232a6.esm";
 import {
     mobile,
     backend,
@@ -9,22 +9,23 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
     docker,
-    carrent,
-    jobit,
-    tripguide,
+    // carrent,
+    // jobit,
+    // tripguide,
     threejs,
-    github,
+    // github,
     morsecode,
     workinprogress,
     questrade,
     sparklease,
+    gamesinsitute,
     pantryai,
     python,
 
@@ -142,17 +143,27 @@ import {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
-    // {
-    //   name: "Python",
-    //   icon: python,
-    // },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
   ];
   
   const experiences = [
+    {
+      title: "Full Stack Developer Intern",
+      company_name: "The Games Institute",
+      icon: gamesinsitute,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Apr 2025",
+      points: [
+       "some points"
+      ],
+    },
     {
       title: "Site Reliabilty Engineer Intern ",
       company_name: "Questrade Inc",
