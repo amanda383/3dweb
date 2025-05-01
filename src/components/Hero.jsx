@@ -5,24 +5,24 @@ import { heroprofile } from '../assets';
 
 const Hero = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
-  const [spotifyEmbedUrl, setSpotifyEmbedUrl] = useState(false);
+  // const [spotifyEmbedUrl, setSpotifyEmbedUrl] = useState(false);
 
   useEffect(() => {
     const img = new Image();
     img.src = heroprofile;
     img.onload = () => setImageLoaded(true);
 
-    // Simulate fetching the daily Spotify content
-    // In a real application, you would fetch it from an API
-    const fetchDailySpotifyContent = async () => {
-      // Example URL of a daily Spotify track
-      const dailyTrackUrl = "https://open.spotify.com/embed/playlist/1qG39Q7Z4zDXFgrSDA3g2O?utm_source=generator"
-      setSpotifyEmbedUrl(dailyTrackUrl);
-    };
+    // // Simulate fetching the daily Spotify content
+    // // In a real application, you would fetch it from an API
+    // const fetchDailySpotifyContent = async () => {
+    //   // Example URL of a daily Spotify track
+    //   const dailyTrackUrl = "https://open.spotify.com/embed/playlist/1qG39Q7Z4zDXFgrSDA3g2O?utm_source=generator"
+    //   setSpotifyEmbedUrl(dailyTrackUrl);
+    // };
 
-    fetchDailySpotifyContent.onload= ()=>setSpotifyEmbedUrl(true);
+    // fetchDailySpotifyContent.onload= ()=>setSpotifyEmbedUrl(true);
 
-    fetchDailySpotifyContent();
+    // fetchDailySpotifyContent();
   }, []);
 
   return (
@@ -46,7 +46,7 @@ const Hero = () => {
             I'm a Computer Engineering Student <br className='sm:block hidden' /> at University of Waterloo
           </p>
           {/* Spotify Embed Player */}
-          <div className="spotify-player mt-10">
+          {/* <div className="spotify-player mt-10">
             {spotifyEmbedUrl && (
               <iframe 
               src={spotifyEmbedUrl} 
@@ -67,7 +67,7 @@ const Hero = () => {
                 ></iframe>
       
             )}
-          </div>
+          </div> */}
         </div>
       </div>
 

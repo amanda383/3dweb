@@ -29,6 +29,7 @@ import python from "./tech/python.png"
 
 import questrade from "./company/questrade.svg"
 import sparklease from "./company/sparklease.jpeg"
+import gamesinsitute from "./company/gamesinstitute.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,6 +69,7 @@ export {
   heroprofile,
   questrade,
   sparklease,
+  gamesinsitute,
   pantryai,
   python
 };
