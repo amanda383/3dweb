@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import wato from '../assets/company/wato.jpeg';
+import orbital from '../assets/company/orbitaluw.jpeg';
 
 const DesignTeam = () => {
   const projects = [
     {
-      title: "WATonomus",
-      description: "University of Waterloo Student Design Team Building a Self-Driving Car. WATonomus is a student design team at the University of Waterloo at the forefront of design, creation, and neural training for autonomous self-driving vehicles. We are proud to have finished 2nd place in the SAE AutoDrive Challenge, an international competition to build a Level 4 autonomous vehicle in four years.",
+      title: "Orbital",
+      description: "UW Orbital is a student design team at the University of Waterloo participating in the Canadian Satellite Design Challenge (CSDC) - a competition that involves a dozen universities from across Canada and runs every two years. Teams design a 3U CubeSats with unique missions and payloads, and attempt to pass launch readiness evaluations such as vibration testing",
       link: "https://docs.google.com/document/d/1Ks49V60jyiaFGFwU-vdbLEys1EEimR-iHJfKc306dfk/edit?usp=sharing",
-      image: wato
+      image: orbital
     },
     // Add more projects as needed
   ];
@@ -49,7 +49,7 @@ const DesignTeam = () => {
               <img 
                 src={project.image} 
                 alt={project.title} 
-                style={{ width: 100, height: 100, objectFit: 'cover', marginBottom: '10px', }} 
+                style={{ width: 400, height: 200, objectFit: 'cover', marginBottom: '10px', }} 
               />
               <a 
                 href={project.link} 
