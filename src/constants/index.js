@@ -161,7 +161,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2025 - Apr 2025",
       points: [
-       "some points"
+       "Led fullstack development of research, admin, and classroom platforms using React, Tailwind CSS, Golang, and MongoDB, enabling structured rhetorical analysis across 10+ university-level courses",
+       "Developed internal tools for moderators to review and manage user-submitted content, with features for approval workflows, filtering, and reward distribution, improving review efficiency by 30% and reducing platform overhead by 50%",
+       "Designed and optimized RESTful API endpoints using Golang, reducing latency by 15% and increasing throughput to support daily requests across three production platforms",
       ],
     },
     {
@@ -171,9 +173,9 @@ import {
       iconBg: "#383E56",
       date: "May 2024 - Aug 2024",
       points: [
-        "Introduced a new business solution(Cohesity Cloud) that reduced GCP server recovery time by 90%, enhancing system resilience and minimizing downtime during critical operations.",
-        "Implemented PowerShell script for Active Directory, reducing manual effort by 60% and cutting error rates by 40%.",
-        "Developed and maintained Terraform modules for GCP, facilitating efficient resource management and enabling quicker deployment cycles for cloud infrastructure."
+        "Introduced a new business solution (Cohesity Cloud) that reduced GCP server recovery time by 90%, enhancing system resilience and minimizing downtime during critical operations",
+        "Automated Active Directory tasks with PowerShell, reducing manual effort by 60% and cutting error rates by 40%",
+        "Developed and maintained Terraform modules for GCP, facilitating efficient resource management and enabling quicker deployment cycles for cloud infrastructure"
       ],
     },
     {
@@ -196,10 +198,9 @@ import {
       iconBg: "#383E56",
       date: "Sept 2022 - Apr 2023",
       points: [
-        "Implemented Terraform script to enforce restriction policies, enhancing access control in Azure environments and minimizing unauthorized access risks from Azure vendors by 95%",
+        "Implemented Terraform script to enforce restriction policies, enhancing access control in Azure environments and minimizing unauthorized access risks from Azure vendors by 100%",
         "Deployed Device42’s capabilities to automate inventory updates and streamline asset management processes within VMware environments, reducing manual effort by 90% and minimizing errors",
-        "Led the Infrastructure team in eliciting, defining, analyzing, and documenting requirements for both new projects and enhancements to existing applications",
-        "Maintained Confluence documentation regarding network configuration and troubleshooting procedures",
+        "Standardized documentation of infrastructure requirements across new and legacy projects using JIRA and Confluence, reducing deployment errors by 40% and accelerating project delivery by 25%",
       ],
     },
     {
@@ -209,10 +210,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2022 - Apr 2022",
       points: [
-        "Utilized ASP.NET Core, Javascript, HTML, and CSS to craft interactive and responsive web, mobile and WeChat experiences.",
-        "Implemented Google Single Sign-On (SSO) functionality within web and mobile applications, streamlining the authentication process for users",
-        "Optimized website performance by implementing lazy loading for images and deferring non-critical JavaScript execution, reducing page load times and enhancing user experience",
-        "Evaluated feedback’s from customers’ requests regarding mobile and web accessibility such as visibility and navigation",
+        "Developed responsive web and mobile features with ASP.NET Core, JavaScript, HTML5, and CSS3, building a multi-method login system with Google SSO, WeChat verification, SMS authentication, and real-time form validation",
+        "Revamped vehicle listings with dynamic filters and reusable components, integrating backend APIs to improve user flow and reduce search time by 40%",
+        "Optimized site performance by implementing lazy image loading and deferring non-critical JavaScript, reducing page load times by 70% and enhancing user experience",
       ],
     },
   ];

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -19,7 +19,7 @@ const DesignTeam = () => {
   return (
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>Design Team</p>
-      <h2 className={styles.sectionHeadText}>Projects</h2>
+      <h2 className={styles.sectionHeadText}>Contributions</h2>
       <div className="projects-list" style={{ marginTop: "20px", justifyContent: 'center', display: 'flex' }}>
         {projects.map((project, index) => (
           <div 
