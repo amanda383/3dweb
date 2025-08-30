@@ -61,7 +61,7 @@ import {
     {
       id: "resume",
       title: "Resume",
-      external: true, link: 'https://drive.google.com/file/d/1-G7EOsj_Xop9q2F_CVpVOEM4oT_PMPqu/view?usp=sharing' 
+      external: true, link: 'https://drive.google.com/file/d/1SCdGD8GcWtMvYyDv7MNIQ6Ddzj3cdoUd/view?usp=sharing' 
     },
     // {
     //   id: "githublink",
