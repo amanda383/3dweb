@@ -155,7 +155,16 @@ import {
   
   const experiences = [
     {
-      title: "Full Stack Developer Intern",
+      title: "Software Developer Intern",
+      company_name: "Classdojo",
+      icon: null,
+      iconBg: "#383E56",
+      date: "Jan 2026 - Aug 2026",
+      points: [
+      ],
+    },
+    {
+      title: "Software Developer Intern",
       company_name: "The Games Institute",
       icon: gamesinsitute,
       iconBg: "#E6DEDD",
